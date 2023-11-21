@@ -2,7 +2,10 @@
 <head>
     <meta name="viewport" content="with=device-width", initial-scale="1.0" >
     <title>UG| Department of Computer Science</title>
+
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style2.css"> 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
@@ -14,16 +17,17 @@
 
     <section class="background">
         <nav>
-           <input type="checkbox" id="check"> 
-           <label for="check" class="checkbtn">
-            <i class="material-icons"></i>
-           </label>
-            <a  href="index.html"><img src="images/comScience_logo.png"></a>
-            <div class="nav-links">
+
+          
+
+        <a  href="index.html"><img src="images/comScience_logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        
                 <ul>
                     <li><a class="active" href="#"> HOME </a></li>
                     <li><a href="#"> ABOUT </a></li>
-                    <li><a href="#"> FACULTY </a></li>
+                    <li><a href="#"> COURSES
+                         </a></li>
                     <li><a href="#"> GROUPS </a></li>
                     <li><a href="#"> EVENTS </a></li>
                     <li><a href="#"> CATALOG </a></li>
@@ -32,9 +36,61 @@
                     <li><a href="#"> STAFF PROFILE </a></li>
                     <li><a href="#"> CONTACTS </a></li>
                 </ul>
+                <input type="checkbox" id="check"> 
+                <label for="check" class="checkbtn">
+                
+                </label>
             </div>
-        
-        </nav> 
-    </section>
+         </nav> 
+         <br><br><br>
+     <div class="text-box">
+        <h1> YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h1>
+        <p>Visit UNIVERSITY OF GHANA'S main page</p>
+        <a href="https://www.ug.edu.gh/"  class="hero-btn">HERE</a>
+
+
+    </div>
+        </section>
+<br><br><br>
+        <!-----------COURSE--------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p> twinkle twinkle little star how I wonder what you are</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Short Courses</h3>
+                    <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.
+                    </p>
+                 </div>
+
+                 <div class="course-col">
+                    <h3>Undergraduate programmes</h3>
+                    <p> Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.</p>
+                    </div>
+
+                 <div class="course-col">
+                    <h3>MPhil & Msc programmes</h3>
+                    <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.</p>
+               </div>
+
+                 <div class="course-col">
+                    <h3>PhD programmes</h3>
+                    <p> Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.
+                    </p>
+                  </div>
+
+
+
+            </div>
+        </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+    </script>
 </body>
 </html>
