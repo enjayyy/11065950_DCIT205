@@ -72,7 +72,7 @@
    
 }
 .nav-links ul li a{
-    font-size: 20px;
+    font-size: 10px;
 }
 .nav-links span:hover  {
     background: none;
@@ -228,21 +228,38 @@ a:hover{
 .sub-head{
     background:linear-gradient(rgba(4, 9,30, 0.7),rgba(4, 9,30, 0.7)), url(images/b146717cdbfac9efb113c2f3c8941a8a.jpg) right no-repeat;
     background-size: cover;
-    height: 80%;
+    height: 50%;
     position: relative;
+   
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+  
+   
+    
 
 }
 .sub-head h1{
    margin-top: 100px; 
    color: #fff;
    padding-top:200px ;
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ 
+   
 }
 .about-us{
     width: 80%;
     margin:auto;
-    padding-top:20px;
+    padding-top:0;
     padding-bottom: 50px;
-
+    
 }
 .about-col{
     flex-basis: 48%;
@@ -252,7 +269,7 @@ a:hover{
 }
 .about-col img{
     width: 80%; 
-    height: 250px;
+    height: 400px;
 }
 .about-col h2{
     padding-left: 200px;
@@ -282,4 +299,16 @@ a:hover{
 }
 .about-col2 h2{
     padding-left: 200px;
+}
+.phd li{
+    text-align: center;
+}
+.phd h2{
+    text-align: center;
+}
+.phdi{
+    padding-bottom: 150px;
+}
+.copyr{
+    text-align: center;
 }

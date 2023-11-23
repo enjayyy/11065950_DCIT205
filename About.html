@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">   
     <p></p>
 </head>
 <body> 
@@ -19,11 +19,12 @@
         <nav>
     <a  href="index.html"><img src="images/comScience_logo.png"></a>
         <div class="nav-links" id="navLinks">
-        
+            <i class="fa fa-times" onclick="hideMenu() "></i>
                 <ul>
                     <li><a  href="#"> HOME </a></li>
                     <li><a class="active" href="#"> ABOUT </a></li>
-                    <li><a href="#"> COURSES</a></li>
+                    <li><a href="#"> COURSES
+                         </a></li>
                     <li><a href="#"> GROUPS </a></li>
                     <li><a href="#"> EVENTS </a></li>
                     <li><a href="#"> CATALOG </a></li>
@@ -34,9 +35,12 @@
                 </ul>
                 <input type="checkbox" id="check"> 
                 <label for="check" class="checkbtn">
-                 </label>
+                
+                </label>
             </div>
+            <i class="fa fa-bars" onclick="showMenu() "></i>
          </nav> 
+         
             
             <h1>About Us</h1>
         
@@ -69,12 +73,12 @@
 <section class="about-us">
     <div class="row">
         <div class="about-col">
-        <h2>Our Organization</h2>
+        <h1>Our Organization</h1>
         <p>The University of Ghana is one of the Africa's most preeminent public universities. Our impact on individuals, our region and the world is profound. whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research. UG educates more than 38,000students annually, with approximately 2.64% being computer science students. We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.</p>
         </div>
 
         <div class="about-col"> 
-         <img src="images/images.jpeg" alt="">
+         <img src="images/deb0fe5814d5d0afff90fb1d07c7a2ca.jpg" alt="">
     </div>
 
      </div>
@@ -84,7 +88,7 @@
         <p>Experience a UG-CDCD classroom from wherever you are. Take advantage of real-time lectures and personal interaction with professors through a suite of online delivery options, customizing your degree to fit your schedule. Our online classroom maintains the same level of academic rigor, while providing students with more ways of learning.     </div>
                 </div>
         <div class="about-col1"> 
-         <img src="images/86546b48223c973a8a9fc331cfd81445.jpg alt="">
+         <img src="images/93905c57e31d1b9115b437080367e388.jpg" alt="">
     </div>
 
     <div class="row">
@@ -100,35 +104,40 @@
 </section>
        
     <script>
-        var navLinks=document.getElementById("navLinks");
+       var navLinks=document.getElementById("navLinks");
 
-        function showMenu(){
-            navLinks.style.right="0";
-        }
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+<!--footer-->
+<footer>
+<div class="footer-content">
+    <div class="footer-section">
+        <h3>Contact Us</h3>
+        <h3><b> and Email</b></h3>
+        <p>Email: dcs@ug.edu.gh</p>
+        <p>Phone: +233 502 382 035
+            +233 559 145 698 </p> </div>
 
-    </script>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Contact Us</h3>
-                <h3><b> and Email</b></h3>
-                <p>Email: dcs@ug.edu.gh</p>
-                <p>Phone: +233 502 382 035
-                    +233 559 145 698 </p> 
-            </div>
 
-            <div class="footer-section">
-                <h3>Follow Us</h3>
-                <p>Stay connected on social media</p>
-               <p><a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">Twitter</a>
-                <a href="#" target="_blank">Instagram</a></p>
-            </div>
-            <p>
-                &copy; 2023 University. All rights reserved.
-        </p>
-        </div>
-        
-    </footer>
+    <div class="footer-section">
+        <h3>Follow Us</h3>
+        <p>Stay connected on social media</p>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Instagram</a>
+    </div>
+
+</div>
+<div class="copyr">
+<p>
+        &copy; 2023 University. All rights reserved.
+</p>
+</div>
+</footer>
 </body>
 </html>
