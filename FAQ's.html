@@ -21,17 +21,16 @@
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu() "></i>
                 <ul>
-                    <li><a  href="#"> HOME </a></li>
-                    <li><a href="#"> ABOUT </a></li>
-                    <li><a href="#"> COURSES
-                         </a></li>
-                    <li><a href="#"> GROUPS </a></li>
-                    <li><a class="active"  href="#"> EVENTS </a></li>
-                    <li><a href="#"> CATALOG </a></li>
-                    <li><a href="#"> RESOURCES </a></li>
-                    <li><a href="#"> LECTURE HALLS </a></li>
-                    <li><a href="#"> STAFF PROFILE </a></li>
-                    <li><a href="#"> CONTACTS </a></li>
+                    <li><a class="active"  href="index.html"> HOME </a></li>
+                    <li><a  href="About.html"> ABOUT </a></li>
+                    <li><a href="Course.html"> COURSES</a></li>
+                    <li><a href="Groups.html"> GROUPS </a></li>
+                    <li><a href="Events.html"> EVENTS </a></li>
+                    <li><a href=""> CATALOG </a></li>
+                    <li><a href="Resources.html"> RESOURCES </a></li>
+                    <li><a href="Lecture Halls.html"> LECTURE HALLS </a></li>
+                    <li><a href="Staff Profile.html"> STAFF PROFILE </a></li>
+                    <li><a href="contact.html"> CONTACTS </a></li>
                 </ul>
                 <input type="checkbox" id="check"> 
                 <label for="check" class="checkbtn">
@@ -41,61 +40,28 @@
             <i class="fa fa-bars" onclick="showMenu() "></i>
          </nav> 
          
-            
-            <h1>EVENTS</h1>
-        
+            <div class="text-box">
+            <h1>Frequently Asked Questions</h1>
+        </div>
          </div>
 
         </section>
-<!---------------------events------->
-<section class="eventss">
-    <div class="title">
-        <h1>Upcoming Events</h1>
-        <div class="line"></div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="images/cocktails.jpg">
-            <h4>Code and Cocktails</h4>
-            <a href="" class="ctn">Learn more</a>
+<!--------------------FAQ------->
+<ul>
+    <li>
+        <label for="first">What degree programs does the Computer Science department offer?</label>
+        <input type="radio" name="accordion" id="first" checked>
+        <div class="contentt">
+            <p>
+                We offer Bachelor's, Master's, and Ph.D. programs in Computer Science.
+                Our undergraduate program includes various specializations to suit your interests.
+            </p>
         </div>
+    </li> 
+</ul>
 
-        <div class="col">
-            <img src="images/FL.jpg">
-            <h4>Free Laptop Distribution</h4>
-            <a href="" class="ctn">Learn more</a>
-        </div>
 
-        <div class="col">
-            <img src="images/masq.jpg">
-            <h4>Coders Masquerade</h4>
-            <a href="" class="ctn">Learn more</a>
-        </div>
 
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <img src="images/ted.jpg">
-            <h4>Ted and Brunch</h4>
-            <a href="" class="ctn">Learn more</a>
-        </div>
-
-        <div class="col">
-            <img src="images/clean.jpg">
-            <h4>COMPSSA Clean Up Day</h4>
-            <a href="" class="ctn">Learn more</a>
-        </div>
-
-        <div class="col">
-            <img src="images/meet.jpg">
-            <h4>Tech Prodigy meet and greet</h4>
-            <a href="" class="ctn">Learn more</a>
-        </div>
-
-    </div>
-
-</section>
        
     <script>
        var navLinks=document.getElementById("navLinks");

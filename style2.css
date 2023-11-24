@@ -382,4 +382,9 @@ a:hover{
 .title{
     text-align: center;
     font-size: 4vmin;
+    
+}
+.coll img{
+    width: 80%; 
+    height: 20px;
 }
